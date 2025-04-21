@@ -1,0 +1,319 @@
+/* header section start */
+.header-section {
+    width: 100%;
+    float: left;
+    background-image: url("../img/banner.png");
+    height: auto;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navbar{
+    padding: 0px 0px 15px 15px;
+}
+.bg-light{
+    background-color: transparent !important;
+}
+.navbar-brand {
+    margin: 0px;
+    float: right;
+    color: rgba(0, 0,  0, 0.9);
+}
+.navbar-toggler{
+    color: rgba(0, 0,  0, 0.5);
+    border-color:rgba(0, 0,  0, 0.1) ;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    background-color: #efefef;
+    line-height: 1;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+}
+.navbar .nav-link{
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #fefefd;
+    margin: 0px 6px;
+    text-transform: uppercase;
+    background-color: transparent;
+}
+
+li{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.login_bt{
+    width: 200px;
+    float: left;
+}
+.login_bt li a{
+    color: #efefef;
+    text-decoration: none !important;
+    outline: none !important;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+
+}
+.login_bt li a:hover{
+    color: #2f2f2f;
+}
+/* header section end */
+
+/* news section start */
+.news-section{
+    width: 100%;
+    float: left;
+    background-color: #19191b;
+}
+.layout-padding{
+    padding-top: 100px; 
+     /* padding-bottom: 0px;  */
+}
+.news-title{
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color:#ffffff;
+    text-transform: uppercase;
+}
+.news-img{
+    width: 100%;
+    float: left;
+}
+.news-title1{
+    width: 100%;
+    float: left;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+.news-text{
+    width: 100%;
+    float: left;
+    margin: 0px;
+    font-size: 16px;
+    color: #ffffff;
+
+}
+.read-btn{
+    width: 150px;
+    float: left;   
+}
+.read-btn a{
+    text-decoration: none;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px ;
+    margin-top: 30px;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+
+}
+.read-btn a:hover{
+    background-color: #ffffff;
+    color: #19191b;
+}
+/* news section end */
+
+/* footer section start */
+.footer-section{
+    width: 100%;
+    float: left;
+    background-color: #111111;
+    padding:90px 0px;
+}
+/* .layout-padding{
+    padding-top: 100px;
+    padding-bottom: 0px;
+} */
+.footer-text{
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fefefd;
+}
+.location-text{
+    width: 100%;
+    float: left;
+}
+.location-text ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.location-text li{
+    font-family: 'poppins', sans-serif;
+    float: left;
+    color: #fefefd;
+    font-size: 15px;
+}
+.location-text li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.location-text li a:hover{
+    color: #fcc92e;
+    transition: all .8s ease-in-out;
+}
+.footer-menu{
+    width: 100%;
+    float: left;
+}
+.footer-menu ul{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 30px;
+}
+.footer-menu li{
+    font-family: 'poppins', sans-serif;
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #fefefd;
+    padding-bottom: 5px;
+    position: relative;
+}
+.footer-menu li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.footer-menu li:before{
+    content: "";
+    width: 20px;
+    height: 8px;
+    background-color: #fcc92e;
+    position: absolute;
+    left: -30px;
+    top: 27%;
+    border-radius: 40px;
+    transition: all .3s ease-in-out
+}
+.footer-menu li:before:hover{
+background-color: #fefefd;
+}
+.form-group{
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    float: left;
+}
+.update-mail {
+    outline: none;
+    color: #c3c2c2;
+    width: 100%;
+    height: 55px;
+    font-size: 16px;
+    padding: 13px 10px 0px 10px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    /* justify-content: center;
+    align-items: center; */
+    display: block;
+    margin-top: 10px;
+    border: 0px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.subscribe-bt{
+    width: 170px;
+    float: left;
+    padding-top: 11px;
+}
+.subscribe-bt a{
+    text-decoration: none !important;
+    outline: none !important;
+    width: 100%;
+    float: left;
+    color: #fcf9f9;
+    padding: 13px 0px 14px 0px;
+    background-color: #fcc92e;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.subscribe-bt a:hover{
+    background-color: #fefefd;
+    color: #19191b;
+}
+.lorem-text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 20px 0px 0px 0px;
+}
+.social-icon{
+    width: 100%;
+    float: left;
+}
+.social-icon ul{
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+}
+.social-icon li{
+    float: left;
+}
+.social-icon li a{
+    text-decoration: none !important;
+    float: left;
+    padding: 3px 10px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 100%;
+    font-size: 20px;
+    margin-right: 5px;
+    width: 46px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    transition: all .3s ease-in-out;
+}
+.social-icon li a:hover{
+    background-color: #fcc92e;
+    color: #ffffff;
+}
+/* footer section end */
+/* copyright section start */
+.copyright-section{
+    width: 100%;
+    float: left;
+    background-color: #111111;
+    height: auto;
+}
+.copyright-text{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 0px;
+    border: 1px solid #7d7d7e;
+    padding-top: 20px;
+    font-family: 'poppins', sans-serif;
+}
+p{
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+.copyright-text a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.copyright-text a:hover{
+    color: #fcc92e;
+}
+/* copyright section end */
